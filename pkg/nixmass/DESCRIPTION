@@ -1,0 +1,12 @@
+Package: nixmass
+Version: 1.0-1
+Date: 2020-04-29
+Title: Snow Water Equivalent Modeling with the Delta.snow Model and Empirical Regression Models
+Authors@R: c(person("Harald", "Schellander", role = c("aut", "cre"), email = "harald.schellander@zamg.ac.at"),
+			 person("Michael", "Winkler", role = c("ctb")))
+Maintainer: Harald Schellander <harald.schellander@zamg.ac.at>
+Depends: R (>= 3.5.0)
+Imports: graphics,stats,zoo,lubridate,grDevices
+LazyData: true
+Description: Snow Water Equivalent is modeled with the process based delta.snow model and empirical regression models using relationships between density and diverse at-site parameters.
+License: GPL-2 | GPL-3

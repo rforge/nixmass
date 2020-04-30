@@ -1,0 +1,19 @@
+import("graphics","stats","zoo","lubridate","grDevices")
+export(
+  "nixmass",
+  "swe.delta.snow",
+  "swe.jo09",
+  "swe.pi16",
+  "swe.st10",
+  "swe.gu19"
+)
+
+## methods 
+S3method("plot", "nixmass")
+S3method("summary", "nixmass")
+
+
+
+
+
+
